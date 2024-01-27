@@ -1,0 +1,51 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+.form {
+  margin-bottom: 20px;
+}
+.form input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #9b9999;
+}
+
+.form button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: rgb(94, 92, 92);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form button:hover {
+  color: black;
+}
+.loadingPhase {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+.listData {
+  margin: none;
+  padding: none;
+}
